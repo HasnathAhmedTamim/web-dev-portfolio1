@@ -106,3 +106,15 @@ body {
   font-weight: 400;
   
 }
+main{
+  max-width: 1140px;
+  margin: auto;
+}
+.about-info{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.info-container{
+  text-align: center;
+}
