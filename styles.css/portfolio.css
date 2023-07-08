@@ -118,3 +118,36 @@ main{
 .info-container{
   text-align: center;
 }
+/* .section-title{
+  width: 70%;
+  margin: auto;
+} */
+#what-i-do{
+  padding: 30px 150px;
+  text-align: center;
+}
+/* skillrelated */
+
+.skills-container{
+  display: flex;
+  justify-content: space-around;
+   gap: 25px;
+  
+  
+}
+.skill-desc{
+  color: #474747;
+  text-align: justify;
+}
+.skill{
+  /* background-color: #FFF8F3; */
+  padding: 20px;
+ 
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  
+}
+main section{
+  margin-top: 160px;
+}
