@@ -148,12 +148,8 @@ main section {
 }
 
 /* res-col-sty */
-.resume-col-tit {
+.resume-column-title {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
-}
-.resume-container{
-  display: flex;
-  justify-content: space-around;
 }
