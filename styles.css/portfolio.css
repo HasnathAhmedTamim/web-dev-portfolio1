@@ -1,65 +1,108 @@
 /* nav realted style */
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
-nav>ul {
-    align-items: center;
-    display: flex;
+nav > ul {
+  align-items: center;
+  display: flex;
 }
 
 nav li {
-    list-style: none;
-    margin-right: 50px;
+  list-style: none;
+  margin-right: 50px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #474747;
+  text-decoration: none;
+  color: #474747;
 }
 
 /* com share style */
-body{
-    
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Lato', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
-.nav-title{
-        color: #181818;
-        
-        font-size: 45px;
-        
-        font-weight: 800;
-        
-}
-.text-primary{
-    color: #FD6E0A;
-}
-.btn-primary{
-    color: floralwhite;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    border: 0;
-    border-radius: 2px;
-    background: #FD6E0A;
+.nav-title {
+  color: #181818;
 
-    padding: 16px 32px;
+  font-size: 45px;
+
+  font-weight: 800;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  color: floralwhite;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  border: 0;
+  border-radius: 2px;
+  background: #fd6e0a;
+
+  padding: 16px 32px;
 }
 /* header relarted style */
 
-.header{
-    background-color: #fff8f3;
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 200px;
-    display: flex;
-    align-items: center;
+.banner {
+  padding: 30px 20px 0px 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner.profilepicture{
-    width: 584px;
-    /* height: 676px; */
+.profile-picture {
+  width: 480px;
+}
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  color: #757575;
+  font-weight: 700px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-des {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.banner-content {
+  max-width: 500px;
+}
+/* main-styles */
+.about {
+  padding: 130px;
+  margin: 130px 0;
+  background-color: #FFF8F3;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+
+  font-size: 35px;
+
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  
+  font-size: 18px;
+  
+  font-weight: 400;
+  
 }
