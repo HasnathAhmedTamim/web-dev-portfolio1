@@ -140,7 +140,7 @@ main {
   padding: 20px;
 
   border-radius: 5px;
-  background: #fff;
+  background: #8606061a;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 main section {
@@ -178,11 +178,43 @@ main section {
   font-weight: 700;
   margin-bottom: 10px;
 }
-.resume-container hr{
-  margin: 40px ;
+.resume-container hr {
+  margin: 30px;
 }
-.download-cv{
+.download-cv {
   text-align: center;
   margin-top: 50px;
   padding: 10px;
+}
+
+/* footer-sty */
+footer {
+  background: #fff8f3;
+  margin-top: 100px;
+  display: flex;
+  padding: 130px 200px;
+  gap: 100px;
+}
+.footer-col {
+  width: 50%;
+}
+
+.contact input[type="text"],.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color:#757575;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+  border-radius: 14px;
+  background:  #8606061a;
+  border: 0;
+  width: 100%;
+}
+.social-links a{
+    margin-right: 25px;
 }
