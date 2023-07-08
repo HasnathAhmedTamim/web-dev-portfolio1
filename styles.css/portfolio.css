@@ -4,6 +4,21 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
+}
+nav>ul {
+    align-items: center;
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
 }
 
 /* com share style */
@@ -34,15 +49,17 @@ body{
 
     padding: 16px 32px;
 }
-nav > ul{
-    align-items: center;
+/* header relarted style */
+
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 200px;
     display: flex;
+    align-items: center;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
-}
-nav a{
-    text-decoration: none;
-    color: #474747;
+.banner.profilepicture{
+    width: 584px;
+    /* height: 676px; */
 }
